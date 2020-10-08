@@ -1,0 +1,274 @@
+{
+  "action_list":[
+    {
+      "sa_id":8453,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Clean Кухня",
+      "keyName":"Clean room 1",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.action",
+        "value":{
+          "siid":18,
+          "aiid":1,
+          "in":[
+            {
+              "piid":1,
+              "value":19
+            },
+            {
+              "piid":21,
+              "value":"-1140,-7426,1204,-4876"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sa_id":8454,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Clean Коридор",
+      "keyName":"Clean room 2",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.action",
+        "value":{
+          "siid":18,
+          "aiid":1,
+          "in":[
+            {
+              "piid":1,
+              "value":19
+            },
+            {
+              "piid":21,
+              "value":"18,-3047,4714,-1106"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sa_id":8455,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Clean Детская",
+      "keyName":"Clean room 3",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.action",
+        "value":{
+          "siid":18,
+          "aiid":1,
+          "in":[
+            {
+              "piid":1,
+              "value":19
+            },
+            {
+              "piid":21,
+              "value":"1737,-7034,3040,-3003"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sa_id":8456,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Clean Спальня",
+      "keyName":"Clean room 4",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.action",
+        "value":{
+          "siid":18,
+          "aiid":1,
+          "in":[
+            {
+              "piid":1,
+              "value":19
+            },
+            {
+              "piid":21,
+              "value":"-1120,-2339,356,4181"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sa_id":5121,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Set cleanup mode to Silent",
+      "keyName":"Set cleanup mode to Silent",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.set_properties",
+        "value":[
+          {
+            "piid":6,
+            "siid":18,
+            "value":0
+          }
+        ]
+      }
+    },
+    {
+      "sa_id":5122,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Set cleanup mode to Standard",
+      "keyName":"Set cleanup mode to Standard",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.set_properties",
+        "value":[
+          {
+            "piid":6,
+            "siid":18,
+            "value":1
+          }
+        ]
+      }
+    },
+    {
+      "sa_id":5123,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Set cleanup mode to Strong",
+      "keyName":"Set cleanup mode to Strong",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.set_properties",
+        "value":[
+          {
+            "piid":6,
+            "siid":18,
+            "value":2
+          }
+        ]
+      }
+    },
+    {
+      "sa_id":5124,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Set cleanup mode to Turbo",
+      "keyName":"Set cleanup mode to Turbo",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.set_properties",
+        "value":[
+          {
+            "piid":6,
+            "siid":18,
+            "value":3
+          }
+        ]
+      }
+    },
+    {
+      "sa_id":5131,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Set water level to Low",
+      "keyName":"Set water level to Low",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.set_properties",
+        "value":[
+          {
+            "piid":20,
+            "siid":18,
+            "value":1
+          }
+        ]
+      }
+    },
+    {
+      "sa_id":5132,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Set water level to Medium",
+      "keyName":"Set water level to Medium",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.set_properties",
+        "value":[
+          {
+            "piid":20,
+            "siid":18,
+            "value":2
+          }
+        ]
+      }
+    },
+    {
+      "sa_id":5133,
+      "model":"dreame.vacuum.mc1808",
+      "name":"Set water level to High",
+      "keyName":"Set water level to High",
+      "type":0,
+      "groupInfo":[
+        
+      ],
+      "tr_id":201,
+      "payload":{
+        "did":"",
+        "command":"dreame.vacuum.mc1808.set_properties",
+        "value":[
+          {
+            "piid":20,
+            "siid":18,
+            "value":3
+          }
+        ]
+      }
+    }
+  ]
+}
